@@ -1,15 +1,21 @@
 package LanguageDevelopmentApp;
 
+import Database.GameCard;
+import java.io.IOException;
 import javax.swing.*;
 
 public class MainApp {
 
-    public static void main(String[] args) {
-        JFrame startUp = new JFrame("MainApp");
-        frame.setContentPane(new MainApp().panelMain);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+    //private JPanel panelMain;
+
+    public static void main(String[] args) throws IOException{
+        //JFrame startUp = new JFrame("MainApp");
+        //startUp.setContentPane(new MainApp().panelMain);
+/*        startUp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        startUp.pack();
+        startUp.setVisible(true);*/
+
+        GameCard.importCard();
 
     }
 }
