@@ -1,14 +1,14 @@
 package LanguageDevelopmentApp;
 
 import Database.GameCard;
-import java.io.IOException;
+
 import javax.swing.*;
+import java.io.IOException;
 
 public class MainApp {
 
     private JPanel panelMain;
     private JTextArea languageDevelopmentApplicationTextArea;
-
 
     public static void main(String[] args) throws IOException{
         JFrame startUp = new JFrame("MainApp");
