@@ -23,7 +23,4 @@ public class Word {
         System.out.println(image);
     }
 
-
-
-
 }
